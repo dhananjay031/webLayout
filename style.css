@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: tomato;
+    height: 100px;
+    text-align: center;
+}
+
+.left{
+    background-color: coral;
+    width: 100px;
+    text-align: center;
+}
+
+.main{
+    background-color: moccasin;
+    flex: 1;
+    text-align: center;
+}
+
+.right{
+    background-color: sandybrown;
+    width: 100px;
+    text-align: center;
+}
+
+.footer{
+    background-color: slategray;
+    height: 100px;
+    text-align: center;
+    padding: 12px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.mid{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: center;
+}
+
+.left, .main, .right, .header ,.footer {
+    padding: 12px;
+}
